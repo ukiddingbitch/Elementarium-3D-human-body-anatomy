@@ -1,0 +1,312 @@
+{
+  "version": "3.3.1",
+  "reviewDate": "2026-11-12",
+  "structures": 2827,
+  "systems": [
+    {
+      "system": "skeletal",
+      "structures": 277,
+      "triangles": 684923
+    },
+    {
+      "system": "joints",
+      "structures": 349,
+      "triangles": 324819
+    },
+    {
+      "system": "muscular",
+      "structures": 669,
+      "triangles": 2308283
+    },
+    {
+      "system": "cardiovascular",
+      "structures": 676,
+      "triangles": 3791022
+    },
+    {
+      "system": "lymphatic",
+      "structures": 158,
+      "triangles": 126338
+    },
+    {
+      "system": "nervous",
+      "structures": 580,
+      "triangles": 2156978
+    },
+    {
+      "system": "visceral",
+      "structures": 118,
+      "triangles": 725516
+    }
+  ],
+  "adaptedModelLicense": "CC-BY-SA-4.0",
+  "illustrativeNerveCourses": 14,
+  "unidentifiedOriginalObjects": [
+    "????????",
+    "?x"
+  ],
+  "definitions": {
+    "original": 735,
+    "wikipedia": 908
+  },
+  "languages": [
+    "sk",
+    "en",
+    "it",
+    "la"
+  ],
+  "sharedLanguagePreference": true,
+  "anatomyBaseLabels": {
+    "total": 1643,
+    "sk": 953,
+    "it": 1643,
+    "la": 1643,
+    "skFallback": "English source labels"
+  },
+  "unitDataAndProtocolTestsPassed": 54,
+  "sourceApplicationIntegrationChecksPassed": 34,
+  "packagedWindowsLaunchAndRestartPersistenceTested": true,
+  "embeddedPythonBrowserRenderingAndCrossTabLanguageTested": true,
+  "linuxRuntimeTested": false,
+  "namedPresetSurvivesFullWindowsRestart": true,
+  "namedPresetSurvivesBrowserReload": true,
+  "namedPresetJsonExportImportTested": true,
+  "independentSystemListCollapseTested": true,
+  "cranialNervesUseUniformSkeletalRegistration": true,
+  "files": {
+    "content/anatomy/models/bodyparts-license-evidence.html": {
+      "bytes": 14694,
+      "sha256": "03e03cadd0b9e136f0b9d646ccc11c301a313827a84bf747f7ff05a5c1d88ef9"
+    },
+    "content/anatomy/models/build-report.json": {
+      "bytes": 584,
+      "sha256": "86d69e88fa9cfc3f3faa29c2fce2ef89f216ccd1b33a152df2991ed37cb892f2"
+    },
+    "content/anatomy/models/cardiovascular.glb": {
+      "bytes": 10354540,
+      "sha256": "35e0f889b128ff055061ba75d88d143fc02c8bcdf102d462ec02dd34a99265c0"
+    },
+    "content/anatomy/models/joints.glb": {
+      "bytes": 1577864,
+      "sha256": "c6e7ccc2552e11fc16c898c5cf551b3a7d5ffb891f0b85ba745173757dd9aaff"
+    },
+    "content/anatomy/models/License.txt": {
+      "bytes": 8158,
+      "sha256": "89ab971dc18081ac967946a2704ec2ebb0ae5bcccd36d304dc4704f11d59513d"
+    },
+    "content/anatomy/models/lymphatic.glb": {
+      "bytes": 576492,
+      "sha256": "e1dceeeba064e224d6014830697f6b2d4cecf8473ca2f26c6f8c77b165639432"
+    },
+    "content/anatomy/models/model-provenance.json": {
+      "bytes": 2149555,
+      "sha256": "89f7b13e1bfaa691154fb6dc3dce3ab6b9ee14c969f5df685c1381be35211231"
+    },
+    "content/anatomy/models/muscular.glb": {
+      "bytes": 9476936,
+      "sha256": "362a09f51a56f3e2a5b859727e231aa1e4350c769d994f94b4ca2931bfa06f2e"
+    },
+    "content/anatomy/models/nervous.glb": {
+      "bytes": 6997832,
+      "sha256": "0df52d74b9ee127a9ad5c20e106fcc56c8f7827cdd7d5182d8e26f893d8ccf07"
+    },
+    "content/anatomy/models/skeletal.glb": {
+      "bytes": 3219284,
+      "sha256": "7448bb1bf1270adaa3b263e7496b366d74918fca254610e1027f93717b20f576"
+    },
+    "content/anatomy/models/visceral.glb": {
+      "bytes": 2207664,
+      "sha256": "8e7f683ab33a0ca62a79be79bd1cfcfda357a938f9976f22631c62ef52e8075b"
+    },
+    "content/licenses/CC-BY-4.0.txt": {
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    "content/licenses/CC-BY-NC-SA-4.0.txt": {
+      "bytes": 20850,
+      "sha256": "e66c269d4819aaab34b49ef5220c4ddab6756f21bb5180761a4eb8561f2b7bbd"
+    },
+    "content/licenses/CC-BY-SA-3.0.html": {
+      "bytes": 54093,
+      "sha256": "c33d7ebdbcc5c8db073e69a794b2ac44805f5d7d9edcfb8b5181a71869a9b7d5"
+    },
+    "content/licenses/CC-BY-SA-4.0.txt": {
+      "bytes": 20138,
+      "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    },
+    "content/licenses/draco-LICENSE": {
+      "bytes": 13898,
+      "sha256": "d3709b0fb4b8a94bbb1d02b8a2e484f258b0d9c5c5a01f940391f3fe662cd1a4"
+    },
+    "content/licenses/inter-LICENSE": {
+      "bytes": 4477,
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345"
+    },
+    "content/licenses/LICENSE.txt": {
+      "bytes": 2682,
+      "sha256": "bf98d28e0d509dce63e879f767d3aa2848f8175af4d8031df899b3a3d21a4f14"
+    },
+    "content/licenses/NOTICE.txt": {
+      "bytes": 5474,
+      "sha256": "8d3d0d3949a878d7de6ca1985e34c559c18eef8122039593d82a99525f9c19fd"
+    },
+    "content/licenses/RUNTIME_SOURCES.txt": {
+      "bytes": 1766,
+      "sha256": "deeff0e258c1e767f5655fc20a7279e10b1f175eb01c8102400d4ed722418ba6"
+    },
+    "content/licenses/three-LICENSE": {
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    "content/licenses/three-mesh-bvh-LICENSE": {
+      "bytes": 1072,
+      "sha256": "b106ef6198a9862ed2b5b873e944ecf3583c631a84a7462d400ecc1910ce7fee"
+    },
+    "third-party/ffmpeg/chromium-DEPS": {
+      "bytes": 192396,
+      "sha256": "9c0e1453ffdd22f00d7bdd309d10e6b0f45c28a4090b4f49070cc5718b5fffc3"
+    },
+    "third-party/ffmpeg/COPYING.GPLv2": {
+      "bytes": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    "third-party/ffmpeg/COPYING.GPLv3": {
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    "third-party/ffmpeg/COPYING.LGPLv2.1": {
+      "bytes": 26517,
+      "sha256": "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30"
+    },
+    "third-party/ffmpeg/COPYING.LGPLv3": {
+      "bytes": 7651,
+      "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+    },
+    "third-party/ffmpeg/electron-DEPS": {
+      "bytes": 8441,
+      "sha256": "ec15235507cd5f2fdd8413dbe75c1c9d3986bed4c219aaf9d4076d402bf8adf3"
+    },
+    "third-party/ffmpeg/electron-patches/.patches": {
+      "bytes": 121,
+      "sha256": "9f6ecf225a7a6141e74cc1b30a6b0eb157baa16db027824d38c879f8a7a996ef"
+    },
+    "third-party/ffmpeg/electron-patches/cherry-pick-5eed87f44b0a.patch": {
+      "bytes": 2245,
+      "sha256": "f036e4f0c6d131ec832c3727bb0dc5da51810cedcc146c0c8128c3a89e2e4ade"
+    },
+    "third-party/ffmpeg/electron-patches/cherry-pick-f4bee18dadeb.patch": {
+      "bytes": 3506,
+      "sha256": "058d8da4c2c7ca0ca6a78a6b70b8f9d7f599f2b8244aadd8a14283e0988c36e6"
+    },
+    "third-party/ffmpeg/electron-patches/cherry-pick-fb424c4f78d1.patch": {
+      "bytes": 1183,
+      "sha256": "37bf2d50981a61f42cb3907aa9e3e612eecb5322c6a0ca53a6c68b3415df868f"
+    },
+    "third-party/ffmpeg/electron-patches/ffmpeg.gn": {
+      "bytes": 195,
+      "sha256": "17335efaaf176bdbc1e329206ff610591b7fab0082b6ff267d567416d7611327"
+    },
+    "third-party/ffmpeg/electron-patches/link_with_loader_path.patch": {
+      "bytes": 1219,
+      "sha256": "e2f63a2036ffa803db9a50dfec74c4f5628abc476cb44a5ede9d7e775bc7b238"
+    },
+    "third-party/ffmpeg/ffmpeg-9db86ce5b5b454dfc96c435f9f0723012980c37f.tar.gz": {
+      "bytes": 18927148,
+      "sha256": "af7e69539f7346e6d384ce95513c3736aae5a470fbcd66f591f0519ddee08c5a"
+    },
+    "third-party/ffmpeg/README.md": {
+      "bytes": 1882,
+      "sha256": "8080fc77e7ac1ea999a56e0491fd2f86d5157c8ae1cf73446ed6826775af481b"
+    },
+    "docs/license-audit/3.0.2-review.md": {
+      "bytes": 12510,
+      "sha256": "7b26eb4f86478967e3a288fe3b5b84b2ebc56cd388810ee525b2aa0f307136f1"
+    },
+    "docs/license-audit/bodyparts3d-4.3-index.txt": {
+      "bytes": 605737,
+      "sha256": "c3d16c891016da13447de2fc3241d05d92e8f9dc460e363233c03f420b935d4f"
+    },
+    "docs/license-audit/definitions-without-source.csv": {
+      "bytes": 109293,
+      "sha256": "deb2d80c66089c9e09d848e748c05c6b7a9a94666a2c8ce051265baba67aa0ca"
+    },
+    "docs/license-audit/inventory.json": {
+      "bytes": 3925,
+      "sha256": "16fd618f5d2bf700c6bd35cde030832eaab13862fabaf548b9322b0c639804bc"
+    },
+    "docs/license-audit/openear-delta-rights-metadata.json": {
+      "bytes": 10169,
+      "sha256": "5d6e8230ebcd84bff72e87890923c6d113da4fdc0f6105fb1306d480d63031d6"
+    },
+    "docs/periodic-table.png": {
+      "bytes": 286234,
+      "sha256": "812cb99b35770ae8435121ddb8ca89acf44209cb3fde3c33dbaf73c77fe454df"
+    },
+    "docs/element-detail.png": {
+      "bytes": 179250,
+      "sha256": "e1f31d7cb90081dba609eb1ac523cb9a6ab40ac637b01f6df2ca236c245e0929"
+    },
+    "docs/anatomy-atlas.png": {
+      "bytes": 196216,
+      "sha256": "a295a68c9fece0ac597c9fff18bd4af60c28b1c7cf6659649f6c0f16e1e5d5c7"
+    },
+    "docs/isolation.png": {
+      "bytes": 159899,
+      "sha256": "ac70d7a1a3decf2d7e4d1da006486b028ea7e934cfd19e24ed5d5b8e33bd4f59"
+    },
+    "docs/muscular-front.png": {
+      "bytes": 167170,
+      "sha256": "277d18136758750b43e76dc828e6c3dbd87c42064f9ea0513888bde1bdc1bb91"
+    },
+    "docs/saved-views.png": {
+      "bytes": 105791,
+      "sha256": "ef523972ba2db67960e32930dee66c052341cab123023fd9953d14833801990a"
+    },
+    "docs/muscular-comparison.png": {
+      "bytes": 159179,
+      "sha256": "7eb3d8ccdc2ce09f44b4770a0da8162ec9ed03da4c3748218d6d9070912df217"
+    },
+    "docs/render-verification.json": {
+      "bytes": 954959,
+      "sha256": "33fe603dee35fbe075986a24818958e665f5715b97d651669ea18bf892f22576"
+    },
+    "docs/cranial-registration.json": {
+      "bytes": 3817,
+      "sha256": "eff3d4e5433bda575c9efc47de7eeb2c7a31cde3c4e75385ca6beafd70cd827e"
+    },
+    "docs/nerve-alignment-side.png": {
+      "bytes": 190676,
+      "sha256": "137b684ab33fd3b9cee5e9baa44515ec056fa92dc5d18092d51daabf44da710b"
+    },
+    "docs/nerve-alignment-back.png": {
+      "bytes": 169941,
+      "sha256": "d67470d54e0d8995d9c859f03707e0d75c450c1baa4f561698cffcdc5e9e9d5f"
+    },
+    "docs/nerve-alignment-front.png": {
+      "bytes": 230845,
+      "sha256": "3dfebffda42c01e8ac6683cc01d458e50dd294315f19c45cbbf495198c1f015d"
+    },
+    "docs/application-verification.json": {
+      "bytes": 3771,
+      "sha256": "e5b47bd3d5b915343a5ed60044af87d7601f5cd29be4f83e137627d8ffba4fb5"
+    },
+    "docs/browser-launcher-verification.json": {
+      "bytes": 569,
+      "sha256": "7e0b83bff6adfaa13bbecbc3b241f38680c9e9bf1169aee48a36055dfd37ae39"
+    }
+  },
+  "releases": {
+    "Elementarium_Windows11/Elementarium-3.3.1-Setup.msi": {
+      "bytes": 207687680,
+      "sha256": "48b8cae60c5f0880f7d5dc2ffedc21574ca2f0ac64083e2b5d0fe61cc746f69e"
+    },
+    "Elementarium_Linux/elementarium_3.3.1-1_amd64.deb": {
+      "bytes": 173684560,
+      "sha256": "b825e469cb2ff44c304a8156c00492366455efe928bc05dcc2bd513a5722b88f"
+    },
+    "Elementarium_Browser_Windows/Elementarium.exe": {
+      "bytes": 22016,
+      "sha256": "c7872ad5e09d54f80ebe949466e9ad968e8f99ab411b5c284cf6bb8f1cf30a98"
+    }
+  }
+}

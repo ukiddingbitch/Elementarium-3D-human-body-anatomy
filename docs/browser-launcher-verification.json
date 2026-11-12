@@ -1,0 +1,13 @@
+{
+  "version": "3.3.1",
+  "freePortDoesNotUseHttpProbe": true,
+  "busyPortFallsBackAutomatically": true,
+  "matchingContentServerReused": true,
+  "actualLauncherStartsEmbeddedPython": true,
+  "chosenAddressSurvivesRestart": true,
+  "otherLocalServiceUnchanged": true,
+  "testSettingsIsolated": true,
+  "defaultBrowserOpenedDuringTest": false,
+  "testNote": "Real launcher with embedded Python and an injected URL opener; browser rendering checked separately.",
+  "launcherSourceSha256": "d9baa09e3fc038c29b2daf696c0e566f0aced74c4da66976584dde2e64f7058c"
+}
