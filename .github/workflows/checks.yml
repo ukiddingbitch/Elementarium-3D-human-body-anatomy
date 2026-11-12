@@ -1,0 +1,26 @@
+name: Project checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            anatomy-source/package-lock.json
+      - run: npm ci --ignore-scripts
+      - run: npm test
+      - run: npm ci --prefix anatomy-source
+      - run: npm run test:anatomy
+      - run: npm run build:anatomy
+      - run: npm test
+      - run: python3 -m py_compile browser/server.py packaging/build_deb.py

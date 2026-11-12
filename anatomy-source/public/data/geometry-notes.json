@@ -1,0 +1,58 @@
+{
+  "Meningeal branch of maxillary nerve.l": {
+    "schematic": true,
+    "note": "New illustrative nerve course between DBCLS 4.3 anatomical landmarks; not a measured segmentation. No legacy CAHID geometry is used."
+  },
+  "Motor root of trigeminal nerve.l": {
+    "schematic": true,
+    "note": "New illustrative nerve course between DBCLS 4.3 anatomical landmarks; not a measured segmentation. No legacy CAHID geometry is used."
+  },
+  "Sensory root of trigeminal nerve.l": {
+    "schematic": true,
+    "note": "New illustrative nerve course between DBCLS 4.3 anatomical landmarks; not a measured segmentation. No legacy CAHID geometry is used."
+  },
+  "Meningeal branch of maxillary nerve.r": {
+    "schematic": true,
+    "note": "New illustrative nerve course between DBCLS 4.3 anatomical landmarks; not a measured segmentation. No legacy CAHID geometry is used."
+  },
+  "Motor root of trigeminal nerve.r": {
+    "schematic": true,
+    "note": "New illustrative nerve course between DBCLS 4.3 anatomical landmarks; not a measured segmentation. No legacy CAHID geometry is used."
+  },
+  "Sensory root of trigeminal nerve.r": {
+    "schematic": true,
+    "note": "New illustrative nerve course between DBCLS 4.3 anatomical landmarks; not a measured segmentation. No legacy CAHID geometry is used."
+  },
+  "Anterior division of mandibular nerve.l": {
+    "schematic": true,
+    "note": "New illustrative nerve course between DBCLS 4.3 anatomical landmarks; not a measured segmentation. No legacy CAHID geometry is used."
+  },
+  "Anterior division of mandibular nerve.r": {
+    "schematic": true,
+    "note": "New illustrative nerve course between DBCLS 4.3 anatomical landmarks; not a measured segmentation. No legacy CAHID geometry is used."
+  },
+  "Posterior division of mandibular nerve.l": {
+    "schematic": true,
+    "note": "New illustrative nerve course between DBCLS 4.3 anatomical landmarks; not a measured segmentation. No legacy CAHID geometry is used."
+  },
+  "Posterior division of mandibular nerve.r": {
+    "schematic": true,
+    "note": "New illustrative nerve course between DBCLS 4.3 anatomical landmarks; not a measured segmentation. No legacy CAHID geometry is used."
+  },
+  "Cochlear nerve.l": {
+    "schematic": true,
+    "note": "New illustrative cochlear/vestibular nerve course between the DBCLS VIII-nerve and registered OpenEar organ landmarks; not a separately measured segmentation. No legacy CAHID geometry is used."
+  },
+  "Vestibular nerve.l": {
+    "schematic": true,
+    "note": "New illustrative cochlear/vestibular nerve course between the DBCLS VIII-nerve and registered OpenEar organ landmarks; not a separately measured segmentation. No legacy CAHID geometry is used."
+  },
+  "Cochlear nerve": {
+    "schematic": true,
+    "note": "New illustrative cochlear/vestibular nerve course between the DBCLS VIII-nerve and registered OpenEar organ landmarks; not a separately measured segmentation. No legacy CAHID geometry is used."
+  },
+  "Vestibular nerve.r": {
+    "schematic": true,
+    "note": "New illustrative cochlear/vestibular nerve course between the DBCLS VIII-nerve and registered OpenEar organ landmarks; not a separately measured segmentation. No legacy CAHID geometry is used."
+  }
+}
