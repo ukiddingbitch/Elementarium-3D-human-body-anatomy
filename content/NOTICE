@@ -1,0 +1,88 @@
+Elementarium 3.3.0 — attribution and adaptations
+=================================================
+
+VIEWER / APPLICATION
+nqwrc/3d-anatomy, commit 8ca3b7421bcfbe88b85859eb1983d5cf79f21749,
+https://github.com/nqwrc/3d-anatomy — CC BY-NC-SA 4.0.
+Elementarium contributors, 2026: chemistry integration, offline packaging,
+shared language preference, localization, visibility fixes, automatic isolation
+framing, sidebar controls and replacement-model pipeline.
+
+ORIGINAL ATLAS GEOMETRY
+Z-Anatomy - The open source atlas of anatomy - CC-BY-SA 4.0
+https://github.com/Z-Anatomy/Models-of-human-anatomy
+Gauthier Kervyn and Z-Anatomy contributors; original BodyParts3D by Kousaku Okubo.
+BodyParts3D, © The Database Center for Life Science licensed under
+CC Attribution 4.0 International.
+https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html (updated 2025-02-27).
+Historical credit retained: BodyParts3D - The Database Center for Life Science -
+CC-BY-SA 2.1 Japan. Current grant and legacy headers are recorded separately.
+
+Brain for Blender — Anderson M. Winkler, Brainder, CC BY-SA 3.0:
+https://brainder.org/research/brain-for-blender/
+The named cortical contribution is credited to its actual publisher, not the
+incorrect University of Washington attribution in the historical export.
+Adaptations are licensed CC BY-SA 4.0, as allowed by BY-SA 3.0 section 4(b).
+
+REPLACEMENT GEOMETRY
+DBCLS / BodyParts3D version 4.3, official public download endpoint:
+https://lifesciencedb.jp/bp3d/download.cgi
+Original FJ/BP file identifiers, hashes and the version-stamped FMA manifest
+are recorded in model-provenance.json. The identified legacy cranial nerve
+group, ureters and intrarenal candidates use independent replacement geometry.
+
+Browne K., Schlehlein H., Human Reference Atlas / HuBMAP, 3D Reference Organs:
+Kidney, Visible Human Male, left and right, v1.3 — CC BY 4.0.
+https://humanatlas.io/3d-reference-library
+Sieber D. M., Andersen S. A. W., Sørensen M. S., Mikkelsen P. T.,
+OpenEar color example from Visible Ear Simulator anatomy Delta — CC BY 4.0.
+https://doi.org/10.5281/zenodo.4362584
+OpenEar library: Sieber D. et al., Scientific Data 6, 180297 (2019),
+https://doi.org/10.1038/sdata.2018.297; data https://doi.org/10.5281/zenodo.1473724
+Registered HRA/Delta data adaptation: authorOd / Svitylo 3D Anatomy Atlas,
+data release 1.2.0, CC BY 4.0 for these replacement components:
+https://github.com/authorOd/3d-anatomy-atlas/tree/main/packages/data/releases/1.2.0
+Only separately licensed geometry/data was reused; no CPAL application code.
+OpenEar ZETA chorda tympani adaptation: Open Twin XR contributors / Open Science
+Foundation, CC BY 4.0, from https://opentwin.opening.science/models/openear-zeta.glb
+and the original OpenEar dataset above. No project-specific private permission
+from that project is relied upon.
+
+Changes: conversion to separately named glTF nodes, reconstruction of source
+hierarchy, unit/axis conversion, landmark/extent registration into this atlas,
+illustrative colours, grouping, new authored courses, Draco compression.
+HRA renal pelvis and parenchyma share one placement transform. Ear registration
+uses four anatomical landmarks. Different donors and edited placements are
+combined for education; this is not one measured subject. Fourteen small nerve
+courses are new illustrative reconstructions and labelled as such in the UI.
+All 2,827 original selectable IDs are preserved, including two unidentified
+legacy objects; unidentified objects are not given invented anatomical names.
+See the per-part provenance and geometry notes for the exact scope.
+
+TERMINOLOGY / TEXT
+Z-Anatomy terminology, CC BY-SA 4.0. Italian terminology contributors credited
+by that source: Paola Perin, Daniele Cossellu, Elisa Vivado. Latin/Italian label
+tables extracted from the source TA2.csv; additional translations are labelled
+as Elementarium editorial terminology, not a clinical terminology certification.
+Original Slovak curation, original summaries and element prose: Elementarium
+contributors, 2026, CC BY 4.0. Italian prose is machine-assisted and unreviewed.
+Wikipedia contributors, CC BY-SA 4.0; exact article revision, title, authors and
+shortening notice are stored with every extract and displayed in its detail.
+PubChem / NIH / NLM periodic-table numerical facts, retrieved 2026-11-11:
+https://pubchem.ncbi.nlm.nih.gov/rest/pug/periodictable/JSON
+https://www.ncbi.nlm.nih.gov/home/about/policies/
+No blanket license assertion is made about all PubChem submissions. The NIST
+SRD 108 compilation remains excluded; the wavelength/frequency calculator uses
+the exact physical constant c = 299792458 m/s.
+
+RUNTIME
+three.js and three-mesh-bvh: MIT. Draco: Apache 2.0 and bundled notices.
+Inter: SIL Open Font License 1.1. Full texts in content/licenses.
+Electron v45.3.0: LICENSE.electron.txt and LICENSES.chromium.html in native apps.
+FFmpeg: matching offline source, Electron patches and LGPL texts in
+resources/third-party/ffmpeg; modification/replacement instructions included.
+No EULA restricts LGPL replacement or debugging modifications. MPL source
+access information is in resources/licenses/RUNTIME_SOURCES.txt.
+Windows MSI uses authored native dialogs and contains no NSIS plugin DLLs.
+The browser Windows release preserves Python's complete runtime/LICENSE.txt.
+Development tools retain their upstream licenses and are not runtime payload.

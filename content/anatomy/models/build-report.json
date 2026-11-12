@@ -1,0 +1,37 @@
+[
+  {
+    "system": "skeletal",
+    "structures": 277,
+    "triangles": 684923
+  },
+  {
+    "system": "joints",
+    "structures": 349,
+    "triangles": 324819
+  },
+  {
+    "system": "muscular",
+    "structures": 669,
+    "triangles": 2308283
+  },
+  {
+    "system": "cardiovascular",
+    "structures": 676,
+    "triangles": 3791022
+  },
+  {
+    "system": "lymphatic",
+    "structures": 158,
+    "triangles": 126338
+  },
+  {
+    "system": "nervous",
+    "structures": 580,
+    "triangles": 2156978
+  },
+  {
+    "system": "visceral",
+    "structures": 118,
+    "triangles": 725516
+  }
+]

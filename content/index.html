@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
+  <title>Elementarium · Interaktívna periodická tabuľka</title>
+  <link rel="icon" href="anatomy/favicon.svg">
+  <link rel="stylesheet" href="assets/models.css">
+  <link rel="stylesheet" href="assets/explorer.css">
+  <link rel="stylesheet" href="assets/readability.css">
+  <script defer src="assets/file-entry.js"></script>
+  <script type="module" src="assets/explorer.js"></script>
+</head>
+<body>
+  <header class="app-header"><a href="./" class="brand"><span class="brand-icon">E<span>118</span></span><span>Elementarium</span></a><nav><label class="sr-only" for="site-language">Jazyk stránky</label><select id="site-language" aria-label="Jazyk stránky"><option value="sk">SK</option><option value="en">EN</option><option value="it">IT</option><option value="la">LA</option></select><a class="atlas-link" href="anatomy/index.html#sys=skeletal&lang=sk" target="_blank" rel="noopener">Anatomický atlas ↗</a></nav></header>
+  <main>
+    <section class="explorer" aria-label="Periodická tabuľka">
+      <div class="toolbar"><label class="search-wrap"><span aria-hidden="true">⌕</span><input type="search" id="search" placeholder="Hľadaj názov, značku alebo číslo…" aria-label="Hľadať prvok"><kbd>/</kbd></label><label class="sr-only" for="category">Skupina prvkov</label><select id="category"><option value="">Všetky skupiny</option></select><button id="favorites" aria-pressed="false">☆ Obľúbené</button><div class="view-switch"><button id="gridview" class="selected" aria-pressed="true">Tabuľka</button><button id="spiralview" aria-pressed="false">Špirála</button></div></div>
+      <div class="table-controls"><div><label for="color-mode">Farby podľa</label> <select id="color-mode"><option value="family">skupiny prvkov</option><option value="phase">skupenstva</option><option value="electronegativity">elektronegativity</option></select></div><div class="temperature"><label for="temperature">Teplota <output id="temperature-value">20 °C</output></label><input id="temperature" type="range" min="-273" max="6000" value="20" step="1"><button id="reset-temp" title="Nastaviť 20 °C">↺</button></div></div>
+      <div id="phase-legend" class="legend phase-legend" hidden></div><div class="table-scroll"><div id="table" class="periodic-table" role="group" aria-label="118 chemických prvkov"></div></div>
+      <section id="spiral-panel" hidden><div class="spiral-heading"><div><h2>Russellova špirála</h2><p>Interaktívna interpretácia historického usporiadania. Prvok otvoríš kliknutím.</p></div></div><div class="spiral-scroll"><svg id="spiral-svg" role="group" aria-label="Interaktívna špirála prvkov"></svg></div><p class="spiral-disclaimer">Historický Russellov model nie je prijatým fyzikálnym opisom atómovej štruktúry. Polohy v špirále nevyjadrujú namerané frekvencie.</p></section>
+      <div id="legend" class="legend"></div>
+      <div class="table-foot"><span><kbd>←</kbd><kbd>→</kbd> ďalší prvok v detaile · <kbd>Esc</kbd> späť</span><button id="reset-filters">Zrušiť filtre</button></div>
+    </section>
+    <section id="comparison" class="comparison" hidden aria-label="Porovnanie prvkov"></section>
+    <section class="discover"><button data-discover="6"><span class="discover-symbol">C</span><span><b>Základ života</b><small>Uhlík · organické molekuly</small></span><span>↗</span></button><button data-discover="26"><span class="discover-symbol">Fe</span><span><b>Od ocele ku krvi</b><small>Železo · materiály aj biológia</small></span><span>↗</span></button><button data-discover="14"><span class="discover-symbol">Si</span><span><b>Svet polovodičov</b><small>Kremík · od horniny k čipu</small></span><span>↗</span></button></section>
+    <p id="status" role="status" class="status">Načítavam prvky…</p>
+  </main>
+  <dialog id="element-dialog" aria-labelledby="element-title"><div class="dialog-top"><span id="element-position"></span><div><select id="detail-language" aria-label="Jazyk detailu"><option value="sk">SK</option><option value="en">EN</option><option value="it">IT</option><option value="la">LA</option></select><button id="prev-element" aria-label="Predchádzajúci prvok">←</button><button id="next-element" aria-label="Nasledujúci prvok">→</button><button id="close-dialog" aria-label="Zavrieť detail">✕</button></div></div><div id="element-hero"></div><nav id="detail-tabs" class="detail-tabs" aria-label="Pohľady na prvok"></nav><section id="details" class="detail-content" aria-live="polite"></section></dialog>
+</body>
+</html>

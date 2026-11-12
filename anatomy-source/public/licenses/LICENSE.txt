@@ -1,0 +1,43 @@
+Elementarium 3.3.0 — component licenses
+=======================================
+
+This distribution is a collection of separately licensed components. No single
+license overrides the terms of independent data files or libraries.
+
+APPLICATION CODE: nqwrc/3d-anatomy and Elementarium changes, CC BY-NC-SA 4.0.
+Upstream commit: 8ca3b7421bcfbe88b85859eb1983d5cf79f21749. This retains the
+upstream code grant; commercial use of that code requires a separate grant.
+
+CURRENT ADAPTED GEOMETRY: CC BY-SA 4.0. Source terms remain applicable:
+- Z-Anatomy, Gauthier Kervyn and contributors: CC BY-SA 4.0.
+- BodyParts3D / DBCLS: current database grant CC BY 4.0; historical headers
+  name CC BY-SA 2.1 Japan. Both credits are preserved, with the current grant.
+- Brain for Blender, Anderson M. Winkler: CC BY-SA 3.0. Its section 4(b)
+  permits a later version for adaptations; our adaptation is CC BY-SA 4.0.
+- HRA kidney and OpenEar replacement source data and registered adaptations:
+  CC BY 4.0. Our adapted geometry is shared under CC BY-SA 4.0.
+- Elementarium-authored illustrative nerve courses: CC BY-SA 4.0.
+The model directory contains a per-part source map and adaptation notes.
+No unrelated project's private permission is claimed for Elementarium.
+
+TERMINOLOGY: Z-Anatomy English/Latin/Italian terminology and the source-derived
+lexicon, CC BY-SA 4.0. Original Slovak curation and original editorial prose,
+CC BY 4.0. Retained English labels identify uncertain source names rather than
+inventing an anatomical identity. Two unidentified source objects are retained.
+
+TEXT: each Wikipedia extract identifies its exact revision, authors, license
+CC BY-SA 4.0 and shortening. Original system contexts are CC BY 4.0. Element
+descriptions are original editorial prose (CC BY 4.0); Italian prose was
+translated locally with machine assistance, with curated chemical names.
+PubChem numerical facts retain the source attribution in NOTICE.
+
+LIBRARIES AND RUNTIMES: MIT, Apache, OFL, LGPL, PSF and other upstream terms
+remain with their components. Full texts/notices are bundled in content/licenses
+and the native runtime. Matching FFmpeg source is in third-party/ffmpeg (source)
+or resources/third-party/ffmpeg (installed native application), outside ASAR.
+
+Noncommercial redistribution of the complete application must preserve these
+notices, per-extract citations and applicable ShareAlike terms. Independent model
+data is not relicensed NonCommercial by the application-code grant. No patent,
+trademark or warranty rights are implied. The application is provided without
+warranty and is an educational illustration, not a clinical reference.
