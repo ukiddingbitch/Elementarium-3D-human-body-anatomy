@@ -1,0 +1,109 @@
+/* Interface typography; periodic-table cells and anatomy documents keep their own sizes. */
+body{font-size:18px;line-height:1.65}
+button,input,select{font-size:17px}
+input::placeholder{color:#adbed0;opacity:1}
+kbd{font-size:14px}
+.app-header{flex-wrap:wrap;gap:14px}
+.brand{font-size:26px}
+.app-header nav{flex-wrap:wrap;gap:14px}
+.app-header .atlas-link{font-size:17px;padding:10px 15px}
+.app-header nav select{font-size:17px;min-height:44px}
+.toolbar{flex-wrap:wrap;gap:12px}
+.search-wrap input{font-size:18px;min-height:46px}
+.toolbar select,.toolbar>button,.view-switch button{font-size:17px;min-height:44px}
+.table-controls{font-size:16px;flex-wrap:wrap;gap:16px}
+.table-controls select{font-size:17px;padding:8px 10px;min-height:42px}
+.temperature{flex-wrap:wrap;gap:12px}
+.temperature label{font-size:17px}
+.temperature output{font-size:19px;min-width:85px}
+.temperature button{min-width:40px;min-height:40px;font-size:24px}
+.legend{gap:10px 20px}
+.legend button{font-size:16px;line-height:1.5;padding:5px 0}
+.legend i{width:9px;height:9px}
+.table-foot{flex-wrap:wrap;gap:12px;font-size:14px}
+.table-foot span,.table-foot button{font-size:14px}
+.table-foot button{padding:7px 0}
+.discover button{gap:16px;padding:20px;min-width:0}
+.discover b{font-size:18px;line-height:1.5}
+.discover small{font-size:16px;line-height:1.6}
+.discover-symbol{font-size:32px}
+.status{font-size:17px}
+.comparison h2{font-size:24px}
+.comparison table{min-width:650px}
+.comparison th,.comparison td{font-size:17px;line-height:1.65;padding:13px}
+.comparison button{font-size:16px}
+.comparison .compare-name{font-size:21px}
+.compare-header{gap:16px;flex-wrap:wrap}
+.dialog-top{font-size:14px;letter-spacing:.5px;gap:10px;flex-wrap:wrap}
+.dialog-top>div{display:flex;align-items:center;gap:4px}
+.dialog-top select{font-size:16px;padding:6px 8px;margin-right:6px;min-height:40px}
+.dialog-top button{font-size:20px;min-width:40px;min-height:40px;padding:4px 10px}
+.element-hero{gap:24px}
+.element-hero .eyebrow{font-size:15px;letter-spacing:1px}
+.hero-text h2{font-size:40px}
+.hero-text p{font-size:17px;line-height:1.6}
+.hero-symbol small,.hero-symbol span{font-size:16px}
+.hero-symbol{height:142px;padding-top:18px}
+.hero-symbol small{top:8px;line-height:1}
+.hero-actions button{font-size:16px;min-height:44px;padding:9px 13px}
+.badge{font-size:16px;line-height:1.5;padding:4px 10px;margin-bottom:5px}
+.detail-tabs{gap:24px}
+.detail-tabs button{font-size:18px;line-height:1.5;padding:16px 0}
+.detail-content h3{font-size:24px;line-height:1.4;margin-bottom:14px}
+.detail-content p{font-size:18px;line-height:1.8}
+.detail-content button,.detail-content input,.detail-content select{font-size:17px}
+.fact{padding:17px;min-width:0}
+.fact small{font-size:16px;line-height:1.5;margin-bottom:8px}
+.fact b{font-size:24px;line-height:1.45;display:block;overflow-wrap:anywhere}
+.source-note{font-size:16px!important;line-height:1.7}
+.value-unit{font-size:16px}
+.property-table th,.property-table td{font-size:17px;line-height:1.65;padding:13px 12px;overflow-wrap:anywhere}
+.config{font-size:20px;line-height:1.8;overflow-wrap:anywhere}
+.atom-side h3{font-size:24px}
+.atom-label{font-size:16px;line-height:1.5;right:18px}
+.hint,.atom-note,.detail-content .hint{font-size:16px;line-height:1.7}
+.shellrow{font-size:18px;gap:12px;margin:12px 0}
+.atom-controls button{font-size:17px;padding:10px 13px}
+.spectral-table,.spectral-table th,.spectral-table td{font-size:17px;line-height:1.6}
+.spectral-table th,.spectral-table td{padding:12px}
+.spectrum-scroll{max-height:440px}
+.spectrum-graphic text{font-size:14px}
+.frequency-calculator{font-size:17px;gap:14px;padding:18px}
+.frequency-calculator output{font-size:24px;overflow-wrap:anywhere}
+.frequency-calculator input{font-size:18px;min-height:44px}
+.body-top{flex-wrap:wrap}
+.body-top a,.body-top label,.body-top select{font-size:17px}
+.body-quantity{font-size:18px;line-height:1.75;padding:18px}
+.body-quantity strong{font-size:26px}
+.spiral-heading h2{font-size:26px}
+.spiral-heading p,.spiral-disclaimer{font-size:16px;line-height:1.75}
+@media(max-width:1000px){.discover{grid-template-columns:1fr}.hero-text h2{font-size:36px}}
+@media(max-width:600px){
+  .app-header{padding:18px 14px;gap:12px}
+  .brand{font-size:24px}
+  .app-header nav{width:100%;justify-content:space-between;gap:10px}
+  .app-header .atlas-link{font-size:16px;padding:9px 12px}
+  .toolbar #category{width:100%;font-size:17px}
+  .toolbar .view-switch{margin-left:0}
+  .table-controls{padding:14px 12px;gap:14px}
+  .table-controls>div:first-child{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .temperature{width:100%;gap:10px}
+  .temperature input{flex:1;min-width:100px;max-width:none}
+  .legend button{font-size:16px}
+  .table-foot span{font-size:14px}
+  .element-hero{padding:20px 16px;gap:16px}
+  .hero-text h2{font-size:34px}
+  .hero-text p{font-size:16px}
+  .hero-symbol small,.hero-symbol span{font-size:15px}
+  .hero-symbol{width:94px;height:128px;padding-top:18px}
+  .hero-actions{flex-wrap:wrap}
+  .hero-actions button{font-size:16px}
+  .detail-tabs{gap:22px}
+  .detail-content{padding:22px 16px}
+  .fact-grid{gap:10px}
+  .fact{padding:14px}
+  .fact b{font-size:22px}
+  .detail-content .section-card{padding:17px}
+  .body-top{gap:14px}
+}
+@media(max-width:380px){.fact-grid{grid-template-columns:1fr}.hero-text{min-width:125px}.fact small{overflow-wrap:anywhere}}
