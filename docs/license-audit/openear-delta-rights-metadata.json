@@ -1,0 +1,177 @@
+{
+  "data": {
+    "id": "10.5281/zenodo.4362584",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.5281/zenodo.4362584",
+      "prefix": "10.5281",
+      "suffix": "zenodo.4362584",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "Sieber, Daniel Manuel",
+          "nameType": "Personal",
+          "givenName": "Daniel Manuel",
+          "familyName": "Sieber",
+          "affiliation": [
+            "MED-EL Elektromedizinische Geräte GesmbH, Innsbruck, Austria"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Andersen, Steven Arild Wuyts",
+          "nameType": "Personal",
+          "givenName": "Steven Arild Wuyts",
+          "familyName": "Andersen",
+          "affiliation": [
+            "Dept. of Otorhinolaryngology, Rigshospitalet, University of Copenhagen, Denmark"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Sørensen, Mads Sølvsten",
+          "nameType": "Personal",
+          "givenName": "Mads Sølvsten",
+          "familyName": "Sørensen",
+          "affiliation": [
+            "Dept. of Otorhinolaryngology, Rigshospitalet, University of Copenhagen, Denmark"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Mikkelsen, Peter Trier",
+          "nameType": "Personal",
+          "givenName": "Peter Trier",
+          "familyName": "Mikkelsen",
+          "affiliation": [
+            "Alexandra Instituttet, Aarhus, Denmark"
+          ],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "OpenEar color example from Visible Ear Simulator anatomy Delta"
+        }
+      ],
+      "publisher": "Zenodo",
+      "container": {},
+      "publicationYear": 2021,
+      "subjects": [],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2021-09-01",
+          "dateType": "Issued"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "DATA",
+        "bibtex": "misc",
+        "citeproc": "dataset",
+        "schemaOrg": "Dataset",
+        "resourceTypeGeneral": "Dataset"
+      },
+      "relatedIdentifiers": [
+        {
+          "relationType": "IsVersionOf",
+          "relatedIdentifier": "10.5281/zenodo.4362583",
+          "relatedIdentifierType": "DOI"
+        }
+      ],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": null,
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        },
+        {
+          "rights": "Open Access",
+          "rightsUri": "info:eu-repo/semantics/openAccess"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "This dataset is an example of the color data used in the non-drillable anatomy segments of the Visible Ear Simulator academic freeware. It contains UV maps for larger segments as well as 3D models including vertex colors. For a full description of the work related to this dataset, please refer to the published article in <em>Otology &amp; Neurotology</em>.",
+          "descriptionType": "Abstract"
+        },
+        {
+          "description": "Please note, that texture maps and tint maps for all anatomies are available withing the Visible Ear Simulator Installation : Texture maps are available in the Image directories, e.g for the DeltaHRP Scene the path would be e.g.: C:&gt; Program Files &gt; Alexandra Institute &gt; VES_3_5 &gt; Scenes &gt; DeltaHRPScene &gt; Image The corresponding colors can be viewed in the VES simulator and highlighted by pressing keyboard \"X\" to open or close the \"segments\" menu. Color RGB values are found in the TintMap directory following (e.g. for the DeltaHRP Scene) the path: C:&gt; Program Files &gt; Alexandra Institute &gt; VES_3_5 &gt; Scenes &gt; DeltaHRPScene &gt; TintMap",
+          "descriptionType": "Other"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjEvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC41MjgxL1pFTk9ETy40MzYyNTg0PC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+RGFuaWVsIE1hbnVlbCBTaWViZXI8L2NyZWF0b3JOYW1lPgogICAgICA8YWZmaWxpYXRpb24+TUVELUVMIEVsZWt0cm9tZWRpemluaXNjaGUgR2Vyw6R0ZSBHZXNtYkgsIElubnNicnVjaywgQXVzdHJpYTwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lPlN0ZXZlbiBBcmlsZCBXdXl0cyBBbmRlcnNlbjwvY3JlYXRvck5hbWU+CiAgICAgIDxhZmZpbGlhdGlvbj5EZXB0LiBvZiBPdG9yaGlub2xhcnluZ29sb2d5LCBSaWdzaG9zcGl0YWxldCwgVW5pdmVyc2l0eSBvZiBDb3BlbmhhZ2VuLCBEZW5tYXJrPC9hZmZpbGlhdGlvbj4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+TWFkcyBTw7hsdnN0ZW4gU8O4cmVuc2VuPC9jcmVhdG9yTmFtZT4KICAgICAgPGFmZmlsaWF0aW9uPkRlcHQuIG9mIE90b3JoaW5vbGFyeW5nb2xvZ3ksIFJpZ3Nob3NwaXRhbGV0LCBVbml2ZXJzaXR5IG9mIENvcGVuaGFnZW4sIERlbm1hcms8L2FmZmlsaWF0aW9uPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZT5QZXRlciBUcmllciBNaWtrZWxzZW48L2NyZWF0b3JOYW1lPgogICAgICA8YWZmaWxpYXRpb24+QWxleGFuZHJhIEluc3RpdHV0dGV0LCBBYXJodXMsIERlbm1hcms8L2FmZmlsaWF0aW9uPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZT5PcGVuRWFyIGNvbG9yIGV4YW1wbGUgZnJvbSBWaXNpYmxlIEVhciBTaW11bGF0b3IgYW5hdG9teSBEZWx0YTwvdGl0bGU+CiAgPC90aXRsZXM+CiAgPHB1Ymxpc2hlcj5aZW5vZG88L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjE8L3B1YmxpY2F0aW9uWWVhcj4KICA8ZGF0ZXM+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iSXNzdWVkIj4yMDIxLTA5LTAxPC9kYXRlPgogIDwvZGF0ZXM+CiAgPHJlc291cmNlVHlwZSByZXNvdXJjZVR5cGVHZW5lcmFsPSJEYXRhc2V0Ii8+CiAgPGFsdGVybmF0ZUlkZW50aWZpZXJzPgogICAgPGFsdGVybmF0ZUlkZW50aWZpZXIgYWx0ZXJuYXRlSWRlbnRpZmllclR5cGU9InVybCI+aHR0cHM6Ly96ZW5vZG8ub3JnL3JlY29yZC80MzYyNTg0PC9hbHRlcm5hdGVJZGVudGlmaWVyPgogIDwvYWx0ZXJuYXRlSWRlbnRpZmllcnM+CiAgPHJlbGF0ZWRJZGVudGlmaWVycz4KICAgIDxyZWxhdGVkSWRlbnRpZmllciByZWxhdGVkSWRlbnRpZmllclR5cGU9IkRPSSIgcmVsYXRpb25UeXBlPSJJc1ZlcnNpb25PZiI+MTAuNTI4MS96ZW5vZG8uNDM2MjU4MzwvcmVsYXRlZElkZW50aWZpZXI+CiAgPC9yZWxhdGVkSWRlbnRpZmllcnM+CiAgPHJpZ2h0c0xpc3Q+CiAgICA8cmlnaHRzIHJpZ2h0c1VSST0iaHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LzQuMC9sZWdhbGNvZGUiPkNyZWF0aXZlIENvbW1vbnMgQXR0cmlidXRpb24gNC4wIEludGVybmF0aW9uYWw8L3JpZ2h0cz4KICAgIDxyaWdodHMgcmlnaHRzVVJJPSJpbmZvOmV1LXJlcG8vc2VtYW50aWNzL29wZW5BY2Nlc3MiPk9wZW4gQWNjZXNzPC9yaWdodHM+CiAgPC9yaWdodHNMaXN0PgogIDxkZXNjcmlwdGlvbnM+CiAgICA8ZGVzY3JpcHRpb24gZGVzY3JpcHRpb25UeXBlPSJBYnN0cmFjdCI+Jmx0O3AmZ3Q7VGhpcyBkYXRhc2V0IGlzIGFuIGV4YW1wbGUgb2YgdGhlIGNvbG9yIGRhdGEgdXNlZCBpbiB0aGUgbm9uLWRyaWxsYWJsZSBhbmF0b215IHNlZ21lbnRzIG9mIHRoZSBWaXNpYmxlIEVhciBTaW11bGF0b3IgYWNhZGVtaWMgZnJlZXdhcmUuJmx0Oy9wJmd0OwoKJmx0O3AmZ3Q7SXQgY29udGFpbnMgVVYgbWFwcyBmb3IgbGFyZ2VyIHNlZ21lbnRzIGFzIHdlbGwgYXMgM0QgbW9kZWxzIGluY2x1ZGluZyB2ZXJ0ZXggY29sb3JzLiZsdDsvcCZndDsKCiZsdDtwJmd0O0ZvciBhIGZ1bGwgZGVzY3JpcHRpb24gb2YgdGhlIHdvcmsgcmVsYXRlZCB0byB0aGlzIGRhdGFzZXQsIHBsZWFzZSByZWZlciB0byB0aGUgcHVibGlzaGVkIGFydGljbGUgaW4gJmx0O2VtJmd0O090b2xvZ3kgJmFtcDthbXA7IE5ldXJvdG9sb2d5Jmx0Oy9lbSZndDsuJmx0Oy9wJmd0OzwvZGVzY3JpcHRpb24+CiAgICA8ZGVzY3JpcHRpb24gZGVzY3JpcHRpb25UeXBlPSJPdGhlciI+UGxlYXNlIG5vdGUsIHRoYXQgdGV4dHVyZSBtYXBzIGFuZCB0aW50IG1hcHMgZm9yIGFsbCBhbmF0b21pZXMgYXJlIGF2YWlsYWJsZSB3aXRoaW5nIHRoZSBWaXNpYmxlIEVhciBTaW11bGF0b3IgSW5zdGFsbGF0aW9uIDoKVGV4dHVyZSBtYXBzIGFyZSBhdmFpbGFibGUgaW4gdGhlIEltYWdlIGRpcmVjdG9yaWVzLCBlLmcgZm9yIHRoZSBEZWx0YUhSUCBTY2VuZSB0aGUgcGF0aCB3b3VsZCBiZSBlLmcuOiBDOiZhbXA7Z3Q7IFByb2dyYW0gRmlsZXMgJmFtcDtndDsgQWxleGFuZHJhIEluc3RpdHV0ZSAmYW1wO2d0OyBWRVNfM181ICZhbXA7Z3Q7IFNjZW5lcyAmYW1wO2d0OyBEZWx0YUhSUFNjZW5lICZhbXA7Z3Q7IEltYWdlClRoZSBjb3JyZXNwb25kaW5nIGNvbG9ycyBjYW4gYmUgdmlld2VkIGluIHRoZSBWRVMgc2ltdWxhdG9yIGFuZCBoaWdobGlnaHRlZCBieSBwcmVzc2luZyBrZXlib2FyZCAiWCIgdG8gb3BlbiBvciBjbG9zZSB0aGUgInNlZ21lbnRzIiBtZW51LiBDb2xvciBSR0IgdmFsdWVzIGFyZSBmb3VuZCBpbiB0aGUgVGludE1hcCBkaXJlY3RvcnkgZm9sbG93aW5nIChlLmcuIGZvciB0aGUgRGVsdGFIUlAgU2NlbmUpIHRoZSBwYXRoOiBDOiZhbXA7Z3Q7IFByb2dyYW0gRmlsZXMgJmFtcDtndDsgQWxleGFuZHJhIEluc3RpdHV0ZSAmYW1wO2d0OyBWRVNfM181ICZhbXA7Z3Q7IFNjZW5lcyAmYW1wO2d0OyBEZWx0YUhSUFNjZW5lICZhbXA7Z3Q7IFRpbnRNYXA8L2Rlc2NyaXB0aW9uPgogIDwvZGVzY3JpcHRpb25zPgo8L3Jlc291cmNlPg==",
+      "url": "https://zenodo.org/record/4362584",
+      "contentUrl": null,
+      "metadataVersion": 1,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2020-12-20T20:17:47.000Z",
+      "registered": "2020-12-20T20:17:48.000Z",
+      "published": "2021",
+      "updated": "2021-08-29T07:01:35.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "cern.zenodo",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "cern",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.5281/zenodo.4362584",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

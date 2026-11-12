@@ -1,0 +1,592 @@
+[
+  {
+    "sk": "Vodík",
+    "description": "Najľahší prvok, ktorý je súčasťou vody a organických molekúl.",
+    "uses": "Výroba amoniaku, vodíkové palivové články a chemické procesy."
+  },
+  {
+    "sk": "Hélium",
+    "description": "Vzácny plyn s veľmi nízkou teplotou varu.",
+    "uses": "Chladenie supravodivých magnetov, ochranné atmosféry a balóny."
+  },
+  {
+    "sk": "Lítium",
+    "description": "Ľahký alkalický kov, ktorý ľahko odovzdáva elektrón.",
+    "uses": "Akumulátory, špeciálne sklá a zliatiny."
+  },
+  {
+    "sk": "Berýlium",
+    "description": "Ľahký a tuhý kov; jeho prach je nebezpečný pri vdýchnutí.",
+    "uses": "Špeciálne zliatiny, optika a okná röntgenových prístrojov."
+  },
+  {
+    "sk": "Bór",
+    "description": "Polokov, ktorý vytvára tvrdé materiály a zlúčeniny s kyslíkom.",
+    "uses": "Borosilikátové sklo, detergenty a polovodiče."
+  },
+  {
+    "sk": "Uhlík",
+    "description": "Základ organickej chémie; tvorí diamant, grafit aj grafén.",
+    "uses": "Oceľ, uhlíkové vlákna, elektródy a organické materiály."
+  },
+  {
+    "sk": "Dusík",
+    "description": "Hlavná zložka vzduchu a súčasť bielkovín aj nukleových kyselín.",
+    "uses": "Výroba hnojív, ochranné atmosféry a kryogénne chladenie."
+  },
+  {
+    "sk": "Kyslík",
+    "description": "Prvok vody a oxidov, nevyhnutný pre aeróbne dýchanie.",
+    "uses": "Hutníctvo, oxidácia a technické aj zdravotnícke plyny."
+  },
+  {
+    "sk": "Fluór",
+    "description": "Veľmi reaktívny halogén; vlastnosti fluoridov sa líšia od čistého fluóru.",
+    "uses": "Fluórpolyméry, fluoridy a výroba špeciálnych chemikálií."
+  },
+  {
+    "sk": "Neón",
+    "description": "Vzácny plyn s charakteristickým červenooranžovým elektrickým výbojom.",
+    "uses": "Svetelné trubice a signalizačné výbojky."
+  },
+  {
+    "sk": "Sodík",
+    "description": "Reaktívny alkalický kov; sodné ióny sú súčasťou telesných tekutín.",
+    "uses": "Chemický priemysel, sodíkové výbojky a teplonosné médiá."
+  },
+  {
+    "sk": "Horčík",
+    "description": "Ľahký kov a centrálny atóm chlorofylu.",
+    "uses": "Ľahké zliatiny, hutníctvo a pyrotechnika."
+  },
+  {
+    "sk": "Hliník",
+    "description": "Ľahký kov chránený tenkou vrstvou oxidu na povrchu.",
+    "uses": "Konštrukcie, obaly, elektrické vodiče a dopravné prostriedky."
+  },
+  {
+    "sk": "Kremík",
+    "description": "Polokov, ktorého zlúčeniny tvoria veľkú časť zemskej kôry.",
+    "uses": "Mikročipy, solárne články, sklo a silikóny."
+  },
+  {
+    "sk": "Fosfor",
+    "description": "Súčasť DNA, ATP a fosforečnanov v kostiach.",
+    "uses": "Hnojivá a výroba fosforečných zlúčenín."
+  },
+  {
+    "sk": "Síra",
+    "description": "Nekov prítomný v niektorých aminokyselinách a mineráloch.",
+    "uses": "Kyselina sírová, vulkanizácia kaučuku a chemická výroba."
+  },
+  {
+    "sk": "Chlór",
+    "description": "Reaktívny halogén; chloridový ión je zložkou kuchynskej soli.",
+    "uses": "Úprava vody, PVC a chemická syntéza."
+  },
+  {
+    "sk": "Argón",
+    "description": "Málo reaktívny vzácny plyn získavaný zo vzduchu.",
+    "uses": "Zváranie, ochranné atmosféry a výplň izolačných skiel."
+  },
+  {
+    "sk": "Draslík",
+    "description": "Alkalický kov; jeho ióny sú dôležité pre nervové a svalové bunky.",
+    "uses": "Draselné hnojivá a priemyselné zlúčeniny."
+  },
+  {
+    "sk": "Vápnik",
+    "description": "Súčasť vápenca a kostného minerálu; v tele pôsobí aj ako signálny ión.",
+    "uses": "Cement, vápno, hutníctvo a vápenaté zlúčeniny."
+  },
+  {
+    "sk": "Skandium",
+    "description": "Ľahký prechodný kov, ktorý sa vyskytuje rozptýlene v mineráloch.",
+    "uses": "Špeciálne hliníkové zliatiny a výbojky."
+  },
+  {
+    "sk": "Titán",
+    "description": "Pevný, ľahký a korózii odolný kov.",
+    "uses": "Letecké zliatiny, implantáty a oxid titaničitý v pigmentoch."
+  },
+  {
+    "sk": "Vanád",
+    "description": "Prechodný kov, ktorý vytvára viaceré oxidačné stavy.",
+    "uses": "Legovanie ocelí, katalyzátory a prietokové batérie."
+  },
+  {
+    "sk": "Chróm",
+    "description": "Kov známy tvrdosťou a koróznou odolnosťou svojich zliatin.",
+    "uses": "Nehrdzavejúca oceľ, povrchové úpravy a pigmenty."
+  },
+  {
+    "sk": "Mangán",
+    "description": "Prechodný kov a stopový prvok v enzýmoch.",
+    "uses": "Výroba ocele, batérie a chemické oxidovadlá."
+  },
+  {
+    "sk": "Železo",
+    "description": "Základný kov ocelí a dôležitá súčasť hemoglobínu.",
+    "uses": "Konštrukčná oceľ, stroje, nástroje a magnetické materiály."
+  },
+  {
+    "sk": "Kobalt",
+    "description": "Prechodný kov prítomný aj vo vitamíne B₁₂.",
+    "uses": "Katódové materiály batérií, superzliatiny a modré pigmenty."
+  },
+  {
+    "sk": "Nikel",
+    "description": "Korózii odolný prechodný kov.",
+    "uses": "Nehrdzavejúca oceľ, batérie, zliatiny a katalyzátory."
+  },
+  {
+    "sk": "Meď",
+    "description": "Kov s vysokou elektrickou a tepelnou vodivosťou.",
+    "uses": "Elektrické vodiče, elektronika, potrubia a zliatiny."
+  },
+  {
+    "sk": "Zinok",
+    "description": "Kov a súčasť mnohých biologických enzýmov.",
+    "uses": "Ochrana ocele proti korózii, mosadz a batérie."
+  },
+  {
+    "sk": "Gálium",
+    "description": "Kov, ktorý sa topí pri teplote blízkej izbovej.",
+    "uses": "Polovodiče GaAs a GaN, LED a vysokofrekvenčná elektronika."
+  },
+  {
+    "sk": "Germánium",
+    "description": "Polokov používaný v optike a polovodičových materiáloch.",
+    "uses": "Infračervená optika, optické vlákna a elektronika."
+  },
+  {
+    "sk": "Arzén",
+    "description": "Polokov; mnohé jeho zlúčeniny sú toxické.",
+    "uses": "Špecializované polovodiče a výskum materiálov."
+  },
+  {
+    "sk": "Selén",
+    "description": "Nekov a stopový prvok prítomný v selenoproteínoch.",
+    "uses": "Sklo, fotovodivé materiály a chemický priemysel."
+  },
+  {
+    "sk": "Bróm",
+    "description": "Halogén, ktorý je pri bežnej izbovej teplote kvapalinou.",
+    "uses": "Brómované chemikálie a špecializované priemyselné procesy."
+  },
+  {
+    "sk": "Kryptón",
+    "description": "Vzácny plyn s využitím v technike výbojov.",
+    "uses": "Výbojky, lasery a izolačné sklá."
+  },
+  {
+    "sk": "Rubídium",
+    "description": "Veľmi reaktívny alkalický kov.",
+    "uses": "Atómové hodiny a výskum ultrachladných atómov."
+  },
+  {
+    "sk": "Stroncium",
+    "description": "Kov alkalických zemín chemicky podobný vápniku.",
+    "uses": "Červené pyrotechnické farby, magnety a špeciálne sklá."
+  },
+  {
+    "sk": "Ytrium",
+    "description": "Kov používaný v pokročilých keramických a optických materiáloch.",
+    "uses": "Luminofory, lasery a technická keramika."
+  },
+  {
+    "sk": "Zirkónium",
+    "description": "Korózii odolný kov; vlastnosti kovu a oxidu zirkoničitého sa líšia.",
+    "uses": "Jadrová technika, keramika a chemické zariadenia."
+  },
+  {
+    "sk": "Niób",
+    "description": "Žiaruvzdorný kov používaný v pevných a supravodivých zliatinách.",
+    "uses": "Mikrolegované ocele a supravodivé magnety."
+  },
+  {
+    "sk": "Molybdén",
+    "description": "Kov s vysokou teplotou topenia.",
+    "uses": "Žiaruvzdorné zliatiny, legovanie ocelí a katalyzátory."
+  },
+  {
+    "sk": "Technécium",
+    "description": "Prvok bez stabilných izotopov.",
+    "uses": "Izotop technécium-99m sa používa v diagnostickej nukleárnej medicíne."
+  },
+  {
+    "sk": "Ruténium",
+    "description": "Kov platinovej skupiny s katalytickými vlastnosťami.",
+    "uses": "Katalyzátory, elektrické kontakty a špeciálne povlaky."
+  },
+  {
+    "sk": "Ródium",
+    "description": "Vzácny kov platinovej skupiny.",
+    "uses": "Automobilové katalyzátory a odolné reflexné povrchy."
+  },
+  {
+    "sk": "Paládium",
+    "description": "Kov platinovej skupiny, ktorý môže absorbovať vodík.",
+    "uses": "Katalyzátory, elektronika a výskum vodíkových materiálov."
+  },
+  {
+    "sk": "Striebro",
+    "description": "Kov s veľmi vysokou elektrickou vodivosťou.",
+    "uses": "Elektrické kontakty, šperky, optické povlaky a fotovoltaika."
+  },
+  {
+    "sk": "Kadmium",
+    "description": "Toxický kov s priemyselným využitím podliehajúcim obmedzeniam.",
+    "uses": "Niektoré batérie, polovodiče a špecializované povlaky."
+  },
+  {
+    "sk": "Indium",
+    "description": "Mäkký kov používaný v elektronických materiáloch.",
+    "uses": "Transparentné vodivé vrstvy ITO, displeje a spájky."
+  },
+  {
+    "sk": "Cín",
+    "description": "Kov bežný v spájkach a ochranných povlakoch.",
+    "uses": "Spájkovanie, pocínované obaly a bronz."
+  },
+  {
+    "sk": "Antimón",
+    "description": "Polokov, ktorý ovplyvňuje vlastnosti zliatin a zlúčenín.",
+    "uses": "Spomaľovače horenia, zliatiny a polovodičové materiály."
+  },
+  {
+    "sk": "Telúr",
+    "description": "Polokov používaný v špecializovaných polovodičoch.",
+    "uses": "CdTe solárne články a termoelektrické materiály."
+  },
+  {
+    "sk": "Jód",
+    "description": "Halogén potrebný na tvorbu hormónov štítnej žľazy.",
+    "uses": "Jodidy, kontrastné zlúčeniny a chemická syntéza."
+  },
+  {
+    "sk": "Xenón",
+    "description": "Ťažký vzácny plyn schopný vytvárať niektoré zlúčeniny.",
+    "uses": "Výbojky, iónové motory a špecializované zobrazovacie techniky."
+  },
+  {
+    "sk": "Cézium",
+    "description": "Veľmi reaktívny alkalický kov.",
+    "uses": "Céziové atómové hodiny a výskum atómovej fyziky."
+  },
+  {
+    "sk": "Bárium",
+    "description": "Kov alkalických zemín; rôzne zlúčeniny majú rozdielne vlastnosti.",
+    "uses": "Vŕtacie kvapaliny s barytom, sklo a špeciálna keramika."
+  },
+  {
+    "sk": "Lantán",
+    "description": "Kov zo skupiny lantanoidov.",
+    "uses": "Optické sklá, katalyzátory a akumulátorové zliatiny."
+  },
+  {
+    "sk": "Cér",
+    "description": "Lantanoid, ktorý ľahko mení oxidačný stav.",
+    "uses": "Leštenie skla, katalyzátory a zapaľovacie zliatiny."
+  },
+  {
+    "sk": "Prazeodým",
+    "description": "Lantanoid s využitím v magnetických a optických materiáloch.",
+    "uses": "Permanentné magnety, zliatiny a farbenie skla."
+  },
+  {
+    "sk": "Neodým",
+    "description": "Lantanoid dôležitý pre silné permanentné magnety.",
+    "uses": "Magnety NdFeB, elektromotory a lasery."
+  },
+  {
+    "sk": "Prométium",
+    "description": "Lantanoid bez stabilných izotopov.",
+    "uses": "Výskum a špecializované rádioizotopové zdroje."
+  },
+  {
+    "sk": "Samárium",
+    "description": "Lantanoid s magnetickými vlastnosťami v zliatinách.",
+    "uses": "Samáriovo-kobaltové magnety a jadrová technika."
+  },
+  {
+    "sk": "Európium",
+    "description": "Lantanoid známy luminiscenciou svojich zlúčenín.",
+    "uses": "Červené a modré luminofory a optické materiály."
+  },
+  {
+    "sk": "Gadolínium",
+    "description": "Lantanoid so silnými magnetickými vlastnosťami.",
+    "uses": "Magnetické materiály a komplexné zlúčeniny pre zobrazovacie techniky."
+  },
+  {
+    "sk": "Terbium",
+    "description": "Lantanoid používaný v optických a magnetických materiáloch.",
+    "uses": "Zelené luminofory, magnetické zliatiny a senzory."
+  },
+  {
+    "sk": "Dysprózium",
+    "description": "Lantanoid, ktorý pomáha udržať vlastnosti magnetov pri vyšších teplotách.",
+    "uses": "Výkonné permanentné magnety a špecializované zliatiny."
+  },
+  {
+    "sk": "Holmium",
+    "description": "Lantanoid s výraznými magnetickými vlastnosťami.",
+    "uses": "Lasery a magnetický výskum."
+  },
+  {
+    "sk": "Erbium",
+    "description": "Lantanoid s dôležitými optickými prechodmi v infračervenej oblasti.",
+    "uses": "Zosilňovače optických vlákien a lasery."
+  },
+  {
+    "sk": "Túlium",
+    "description": "Vzácny lantanoid používaný v optických technológiách.",
+    "uses": "Lasery a špecializované zdroje žiarenia."
+  },
+  {
+    "sk": "Yterbium",
+    "description": "Lantanoid skúmaný v kvantovej a optickej fyzike.",
+    "uses": "Vláknové lasery a presné atómové merania."
+  },
+  {
+    "sk": "Lutécium",
+    "description": "Posledný prvok lantanoidového radu.",
+    "uses": "Scintilačné materiály, katalyzátory a rádioizotopové technológie."
+  },
+  {
+    "sk": "Hafnium",
+    "description": "Žiaruvzdorný kov chemicky podobný zirkóniu.",
+    "uses": "Jadrová technika, superzliatiny a dielektriká v mikroelektronike."
+  },
+  {
+    "sk": "Tantal",
+    "description": "Kov odolný voči korózii, ktorý vytvára stabilnú oxidovú vrstvu.",
+    "uses": "Kondenzátory, chemické zariadenia a implantáty."
+  },
+  {
+    "sk": "Volfrám",
+    "description": "Kov s mimoriadne vysokou teplotou topenia.",
+    "uses": "Tvrdokovové nástroje, elektródy a vysokoteplotné aplikácie."
+  },
+  {
+    "sk": "Rénium",
+    "description": "Vzácny žiaruvzdorný kov.",
+    "uses": "Superzliatiny pre turbíny a katalyzátory."
+  },
+  {
+    "sk": "Osmium",
+    "description": "Hustý kov platinovej skupiny.",
+    "uses": "Špecializované zliatiny a výskumné zlúčeniny."
+  },
+  {
+    "sk": "Irídium",
+    "description": "Veľmi korózii odolný kov platinovej skupiny.",
+    "uses": "Elektródy, zapaľovacie sviečky a odolné technické súčiastky."
+  },
+  {
+    "sk": "Platina",
+    "description": "Vzácny kov s významnými katalytickými vlastnosťami.",
+    "uses": "Katalyzátory, elektródy a šperky."
+  },
+  {
+    "sk": "Zlato",
+    "description": "Vzácny kov, ktorý dobre odoláva oxidácii.",
+    "uses": "Elektronické kontakty, šperky a špecializované materiály."
+  },
+  {
+    "sk": "Ortuť",
+    "description": "Kov, ktorý je pri izbovej teplote kvapalinou.",
+    "uses": "Špecializované výbojky a prístroje; mnohé tradičné použitia sa obmedzujú."
+  },
+  {
+    "sk": "Tálium",
+    "description": "Mäkký a veľmi toxický kov.",
+    "uses": "Špecializované detektory a elektronické materiály."
+  },
+  {
+    "sk": "Olovo",
+    "description": "Hustý, mäkký a toxický kov.",
+    "uses": "Olovené akumulátory a tienenie ionizujúceho žiarenia."
+  },
+  {
+    "sk": "Bizmut",
+    "description": "Krehký kov používaný v zliatinách s nízkou teplotou topenia.",
+    "uses": "Taviteľné zliatiny a bizmutové zlúčeniny."
+  },
+  {
+    "sk": "Polónium",
+    "description": "Silno rádioaktívny prvok bez stabilných izotopov.",
+    "uses": "Špecializovaný výskum rádioaktivity a zdrojov častíc alfa."
+  },
+  {
+    "sk": "Astát",
+    "description": "Veľmi vzácny rádioaktívny halogén.",
+    "uses": "Výskum rádionuklidov a ich potenciálnych aplikácií."
+  },
+  {
+    "sk": "Radón",
+    "description": "Rádioaktívny vzácny plyn vznikajúci v rozpadových radoch.",
+    "uses": "Výskum rádioaktivity a meranie prirodzeného radiačného pozadia."
+  },
+  {
+    "sk": "Francium",
+    "description": "Veľmi vzácny rádioaktívny alkalický kov.",
+    "uses": "Základný výskum atómovej fyziky."
+  },
+  {
+    "sk": "Rádium",
+    "description": "Rádioaktívny kov alkalických zemín.",
+    "uses": "Rádiochemický výskum a špecializované izotopové aplikácie."
+  },
+  {
+    "sk": "Aktínium",
+    "description": "Rádioaktívny prvok na začiatku aktinoidového radu.",
+    "uses": "Výskum rádioizotopov a aktinoidovej chémie."
+  },
+  {
+    "sk": "Tórium",
+    "description": "Prirodzene sa vyskytujúci rádioaktívny aktinoid.",
+    "uses": "Výskum jadrových palivových cyklov a materiálov."
+  },
+  {
+    "sk": "Protaktínium",
+    "description": "Vzácny rádioaktívny aktinoid.",
+    "uses": "Rádiochemický a geochemický výskum."
+  },
+  {
+    "sk": "Urán",
+    "description": "Ťažký rádioaktívny kov s prirodzenými izotopmi.",
+    "uses": "Jadrové palivo, geochronológia a výskum aktinoidov."
+  },
+  {
+    "sk": "Neptúnium",
+    "description": "Rádioaktívny transuránový prvok.",
+    "uses": "Výskum jadrovej chémie a izotopových premien."
+  },
+  {
+    "sk": "Plutónium",
+    "description": "Rádioaktívny transuránový kov.",
+    "uses": "Jadrová technika a rádioizotopové energetické zdroje."
+  },
+  {
+    "sk": "Amerícium",
+    "description": "Umelo pripravený rádioaktívny aktinoid.",
+    "uses": "Niektoré ionizačné detektory dymu a výskumné zdroje."
+  },
+  {
+    "sk": "Kúrium",
+    "description": "Rádioaktívny aktinoid pomenovaný po manželoch Curieovcoch.",
+    "uses": "Vedecké zdroje žiarenia a výskum ťažkých prvkov."
+  },
+  {
+    "sk": "Berkélium",
+    "description": "Syntetický rádioaktívny aktinoid.",
+    "uses": "Výskum transuránových prvkov a syntéza ťažších jadier."
+  },
+  {
+    "sk": "Kalifornium",
+    "description": "Syntetický aktinoid; niektoré izotopy sú zdrojmi neutrónov.",
+    "uses": "Neutrónové zdroje a výskum jadrovej fyziky."
+  },
+  {
+    "sk": "Einsteinium",
+    "description": "Syntetický rádioaktívny aktinoid dostupný v malých množstvách.",
+    "uses": "Základný výskum chémie a fyziky ťažkých prvkov."
+  },
+  {
+    "sk": "Fermium",
+    "description": "Syntetický rádioaktívny aktinoid.",
+    "uses": "Základný výskum jadrových vlastností a aktinoidovej chémie."
+  },
+  {
+    "sk": "Mendelévium",
+    "description": "Syntetický aktinoid pripravovaný po jednotlivých atómoch alebo v malých množstvách.",
+    "uses": "Výlučne vedecký výskum vlastností ťažkých prvkov."
+  },
+  {
+    "sk": "Nobélium",
+    "description": "Syntetický rádioaktívny aktinoid.",
+    "uses": "Výskum aktinoidovej chémie a štruktúry atómových jadier."
+  },
+  {
+    "sk": "Lawrencium",
+    "description": "Syntetický rádioaktívny prvok na konci aktinoidového radu.",
+    "uses": "Výskum elektronovej štruktúry a ťažkých jadier."
+  },
+  {
+    "sk": "Rutherfordium",
+    "description": "Syntetický superťažký prvok zo 4. skupiny.",
+    "uses": "Výskum chemického správania superťažkých prvkov."
+  },
+  {
+    "sk": "Dubnium",
+    "description": "Syntetický superťažký prvok z 5. skupiny.",
+    "uses": "Výskum jadrovej stability a chémie jednotlivých atómov."
+  },
+  {
+    "sk": "Seaborgium",
+    "description": "Syntetický superťažký prvok zo 6. skupiny.",
+    "uses": "Výskum chemických vlastností superťažkých atómov."
+  },
+  {
+    "sk": "Bohrium",
+    "description": "Syntetický superťažký prvok zo 7. skupiny.",
+    "uses": "Základný výskum jadrovej fyziky a chémie."
+  },
+  {
+    "sk": "Hassium",
+    "description": "Syntetický superťažký prvok z 8. skupiny.",
+    "uses": "Výskum chemického správania veľmi ťažkých atómov."
+  },
+  {
+    "sk": "Meitnérium",
+    "description": "Syntetický superťažký prvok s krátko žijúcimi izotopmi.",
+    "uses": "Výskum syntézy a rozpadu superťažkých jadier."
+  },
+  {
+    "sk": "Darmštátium",
+    "description": "Syntetický superťažký prvok z 10. skupiny.",
+    "uses": "Výskum stability a rozpadových reťazcov ťažkých jadier."
+  },
+  {
+    "sk": "Röntgénium",
+    "description": "Syntetický superťažký prvok z 11. skupiny.",
+    "uses": "Výskum fyziky superťažkých jadier."
+  },
+  {
+    "sk": "Kopernícium",
+    "description": "Syntetický superťažký prvok z 12. skupiny.",
+    "uses": "Výskum vlastností atómov ovplyvnených relativistickými javmi."
+  },
+  {
+    "sk": "Nihónium",
+    "description": "Syntetický superťažký prvok z 13. skupiny.",
+    "uses": "Výskum syntézy a vlastností superťažkých prvkov."
+  },
+  {
+    "sk": "Fleróvium",
+    "description": "Syntetický superťažký prvok zo 14. skupiny.",
+    "uses": "Výskum jadrovej stability a chémie jednotlivých atómov."
+  },
+  {
+    "sk": "Moskóvium",
+    "description": "Syntetický superťažký prvok z 15. skupiny.",
+    "uses": "Výskum tvorby a rozpadu superťažkých jadier."
+  },
+  {
+    "sk": "Livermórium",
+    "description": "Syntetický superťažký prvok zo 16. skupiny.",
+    "uses": "Základný výskum jadrovej fyziky."
+  },
+  {
+    "sk": "Tenés",
+    "description": "Syntetický superťažký prvok zo 17. skupiny.",
+    "uses": "Výskum jadrových vlastností; bežné chemické využitie nemá."
+  },
+  {
+    "sk": "Oganesón",
+    "description": "Syntetický superťažký prvok z 18. skupiny.",
+    "uses": "Výskum superťažkých jadier; jeho vlastnosti nemožno stotožňovať s bežnými vzácnymi plynmi."
+  }
+]

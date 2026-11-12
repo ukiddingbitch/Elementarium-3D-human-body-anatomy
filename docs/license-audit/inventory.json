@@ -1,0 +1,145 @@
+{
+  "reviewDate": "2026-11-12",
+  "release": "3.0.2",
+  "publicationStatus": "HOLD",
+  "definitions": {
+    "total": 1277,
+    "withExplicitWikipediaUrl": 187,
+    "withoutExplicitWikipediaUrl": 1090
+  },
+  "spectra": {
+    "elements": 99,
+    "lines": 11966,
+    "declaredSource": "NIST SRD 108, historical 2005 selection",
+    "redistributionGrantLocated": false
+  },
+  "dracoLicenseAddedToSourceAndUnpackedBrowser": true,
+  "existingInstallersRebuiltWithNewNotices": false,
+  "installerHashes": {
+    "Elementarium-3.0.2-Setup.exe": "17fffe11cdfc5e98526ee0b6fe55b4512d96d30f4547be78f16d7fcca8e25676",
+    "elementarium_3.0.2-1_amd64.deb": "6435477a29eab2a5bb884433d0c4255d0bf41813f839e5cba1583f759b635813"
+  },
+  "models": [
+    {
+      "file": "cardiovascular.glb",
+      "sha256": "bc94c7b8eb1712f18ee461e064140e54aa817f3614e0f56a45b00e2a829cfb59",
+      "nodes": 676,
+      "materials": [
+        "Artery",
+        "Trapezius",
+        "Ligament",
+        "Cartilage",
+        "Pulmonary artery",
+        "Vein",
+        "Pulmonary vein"
+      ],
+      "componentLicenseMapping": "pending exact provenance review"
+    },
+    {
+      "file": "joints.glb",
+      "sha256": "9fdab1a257652597cf8f0b2ac93d12abc817e8f9a9099b9628e764018490afa2",
+      "nodes": 349,
+      "materials": [
+        "Ligament",
+        "Cartilage",
+        "Articular capsule",
+        "Fat"
+      ],
+      "componentLicenseMapping": "pending exact provenance review"
+    },
+    {
+      "file": "lymphatic.glb",
+      "sha256": "718cac2b26ad752224cc8a11b2d5bf733fb523b75d9614822a24af7d19202756",
+      "nodes": 158,
+      "materials": [
+        "Gland",
+        "Lymph-1",
+        "Organ"
+      ],
+      "componentLicenseMapping": "pending exact provenance review"
+    },
+    {
+      "file": "muscular.glb",
+      "sha256": "f69ed1287f802a2d603d23293e01512bb57ae77ee7cca1d5527ba00496e51de2",
+      "nodes": 669,
+      "materials": [
+        "Fascia",
+        "Ligament",
+        "Internal rotator",
+        "Tendon",
+        "Cartilage",
+        "Bursa",
+        "Articular capsule",
+        "Trapezius",
+        "Diaphragm"
+      ],
+      "componentLicenseMapping": "pending exact provenance review"
+    },
+    {
+      "file": "nervous.glb",
+      "sha256": "c7cde35497f887b319c0a84f1b5b605fa3ce66e23084b5e09d6e3825fa5030d9",
+      "nodes": 580,
+      "materials": [
+        "LCR",
+        "Nucleus",
+        "Brain",
+        "Nucleus (afferent fibers)",
+        "Nucleus (efferent fibers)",
+        "Frontal lobe",
+        "Cerebellum",
+        "White matter",
+        "Nerve",
+        "Brain-Inner",
+        "Cartilage",
+        "Fascia",
+        "Artery",
+        "Bone-4",
+        "Ligament",
+        "Mucosa",
+        "Gland",
+        "Cornea",
+        "Orbicularis/Constrictor",
+        "Eye",
+        "Iris"
+      ],
+      "componentLicenseMapping": "pending exact provenance review"
+    },
+    {
+      "file": "skeletal.glb",
+      "sha256": "c2b70b31ddec4062cbc5ba969fc24ecfed61d00397a0bca795e2701d997200f8",
+      "nodes": 277,
+      "materials": [
+        "Bone-1",
+        "Cartilage",
+        "Suture-1",
+        "Suture-2",
+        "Teeth",
+        "Teeth-roots",
+        "Dentine"
+      ],
+      "componentLicenseMapping": "pending exact provenance review"
+    },
+    {
+      "file": "visceral.glb",
+      "sha256": "b21a0f34b3da1bb0b6a9a6ae71d16ffbc036beb504944af2422d4b91a9317fe5",
+      "nodes": 118,
+      "materials": [
+        "Peritoneum",
+        "Ligament",
+        "Intestine",
+        "Mucosa",
+        "Gallbladder",
+        "Organ-6",
+        "Gland",
+        "Nucleus",
+        "Ductus",
+        "Cartilage",
+        "Lung-base",
+        "Lung-6",
+        "Bronchi",
+        "Fascia"
+      ],
+      "componentLicenseMapping": "pending exact provenance review"
+    }
+  ]
+}
