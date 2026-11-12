@@ -1,0 +1,5 @@
+<!doctype html>
+<html lang="sk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Elementarium</title><link rel="stylesheet" href="shell.css"><script defer src="shell.js"></script></head><body>
+<header class="desktop-navigation"><strong>Elementarium</strong><nav aria-label="Časti aplikácie"><button id="show-table" class="active" aria-pressed="true">Periodická tabuľka</button><button id="show-anatomy" aria-pressed="false">Anatomický atlas</button></nav><label class="application-language-label"><span class="sr-only">Language</span><select id="application-language" aria-label="Application language"><option value="sk">SK</option><option value="en">EN</option><option value="it">IT</option><option value="la">LA</option></select></label><button id="back-table" hidden>← Späť na tabuľku</button></header>
+<main><iframe id="table-view" title="Periodická tabuľka" src="content/index.html"></iframe><iframe id="atlas-view" title="Anatomický atlas" hidden></iframe></main>
+</body></html>

@@ -1,0 +1,84 @@
+{
+  "name": "elementarium-desktop",
+  "version": "3.3.1",
+  "description": "Interactive periodic table and 3D anatomy atlas",
+  "author": "Elementarium",
+  "license": "SEE LICENSE IN LICENSE",
+  "private": true,
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win msi --x64",
+    "dist:linux:dir": "electron-builder --linux dir --x64",
+    "browser": "node scripts/serve-browser.cjs",
+    "test": "node --test core.test.cjs tests/browser.test.cjs tests/elements.test.mjs tests/licensing.test.cjs",
+    "test:anatomy": "npm --prefix anatomy-source test",
+    "build:anatomy": "node scripts/build-anatomy.cjs"
+  },
+  "devDependencies": {
+    "electron": "45.3.0",
+    "electron-builder": "26.18.0"
+  },
+  "build": {
+    "appId": "sk.elementarium.desktop",
+    "productName": "Elementarium",
+    "asar": true,
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.cjs",
+      "desktop-core.cjs",
+      "shell.html",
+      "shell.css",
+      "shell.js",
+      "content/**/*",
+      "package.json",
+      "icon.ico",
+      "icon.png"
+    ],
+    "win": {
+      "target": [
+        "msi"
+      ],
+      "artifactName": "Elementarium-${version}-Setup.${ext}",
+      "signAndEditExecutable": true,
+      "icon": "icon.ico"
+    },
+    "portable": {
+      "artifactName": "Elementarium-${version}-Portable.exe"
+    },
+    "linux": {
+      "executableName": "elementarium",
+      "category": "Education",
+      "icon": "icon.png",
+      "description": "Interactive periodic table and 3D anatomy atlas",
+      "target": [
+        "dir"
+      ]
+    },
+    "msi": {
+      "oneClick": true,
+      "perMachine": false,
+      "runAfterFinish": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Elementarium"
+    },
+    "msiProjectCreated": "./packaging/msi-wizard.cjs",
+    "extraResources": [
+      {
+        "from": "third-party/ffmpeg",
+        "to": "third-party/ffmpeg"
+      },
+      {
+        "from": "content/licenses",
+        "to": "licenses"
+      }
+    ]
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "type": "module"
+}
